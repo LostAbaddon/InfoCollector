@@ -15,8 +15,8 @@ model: haiku
 - **新发现的网站列表**：格式化的网站信息列表
   - 每个网站包含：域名、URL、出现次数、相关主题、网站名称（如果有）
   - **发现途径**（重要！）：`"SITE引用"` 或 `"WebSearch直接发现"` 或两者混合
-- **SITE.md 文件路径**：通常是 `/Users/zhanglei/InfoCollection/SITE.md`
-- **工作目录**：完整的绝对路径（如 `/Users/zhanglei/InfoCollection/2025-10-27`）
+- **SITE.md 文件路径**：通常是 `./SITE.md`
+- **工作目录**：完整的绝对路径（如 `./2025-10-27`）
 - **用户偏好**：从 PERSONEL.md 中提取的用户偏好
   - 关注领域
   - 语言偏好

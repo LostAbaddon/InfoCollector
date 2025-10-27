@@ -1,0 +1,39 @@
+{
+  "name": "info-collector",
+  "version": "1.1.0",
+  "description": "智能信息收集系统 - 自动从多个可靠信息源收集、分析和汇总信息",
+  "author": {
+    "name": "LostAbaddon",
+    "email": "lostabaddon@gmail.com",
+    "url": "https://lostabaddon.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lostabaddon/InfoCollector.git"
+  },
+  "license": "MIT",
+  "category": "information-management",
+  "keywords": [
+    "information-collection",
+    "research",
+    "web-scraping",
+    "analysis",
+    "report-generation"
+  ],
+  "skills": [
+    {
+      "path": "./skills/info-collector/SKILL.md"
+    }
+  ],
+  "agents": [
+    {
+      "path": "./agents/source-processor.md"
+    },
+    {
+      "path": "./agents/webpage-analyzer.md"
+    },
+    {
+      "path": "./agents/site-evaluator.md"
+    }
+  ]
+}
