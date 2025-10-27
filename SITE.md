@@ -39,6 +39,22 @@
   - 类型: AI、机器学习、深度学习
   - 语言: 中文
 
+- **Turbo AI**
+  - URL: https://turbo.ai/
+  - 类型: 教育科技、AI笔记工具、学生学习应用
+  - 语言: 英文
+
+### AI教育与学习
+- **YouLearn**
+  - URL: https://youlearn.ai/
+  - 类型: 教育科技、AI教学、在线学习平台
+  - 语言: 英文
+
+- **Elana Pearl's Website**
+  - URL: https://elanapearl.github.io/
+  - 类型: 机器学习教学、深度学习、技术博客
+  - 语言: 英文
+
 ### 软件开发
 - **Hacker News**
   - URL: https://news.ycombinator.com/
@@ -127,6 +143,35 @@
   - URL: https://www.jiemian.com/
   - 类型: 商业、科技、文化
   - 语言: 中文
+
+## 教育与学习管理
+
+### 学习管理系统
+- **Instructure Canvas**
+  - URL: https://instructure.com/
+  - 类型: 学习管理系统、高等教育、在线学习
+  - 语言: 多语言
+
+- **Skilljar**
+  - URL: https://skilljar.com/
+  - 类型: 学习管理系统、企业培训、客户教育
+  - 语言: 英文
+
+- **Panopto**
+  - URL: https://www.panopto.com/
+  - 类型: 讲座记录、教学视频、AI视频学习、高等教育
+  - 语言: 多语言
+
+### 在线教育平台
+- **Coursera**
+  - URL: https://coursera.com/
+  - 类型: 大规模开放课程、在线教育、AI教学
+  - 语言: 多语言
+
+- **Wiley**
+  - URL: https://wiley.com/
+  - 类型: 教科书、学术出版、在线教育资源
+  - 语言: 多语言
 
 ## 学术研究
 
