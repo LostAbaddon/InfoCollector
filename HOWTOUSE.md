@@ -22,9 +22,11 @@
 
 将本项目的 `skills` 和 `agents` 目录复制到您工作目录 `claude` 目录下。
 
-### 3. 复制配置文件
+### 3. 复制 SITE.md 配置文件
 
-将本项目的 `PERSONEL.md` 和 `SITE.md` 复制到您的工作目录下，并根据您的实际需求进行配置。
+将本项目的 `SITE.md` 复制到您的工作目录下。
+
+**注意**：不需要复制 `PERSONEL.md`，系统会在首次启动时自动创建！
 
 ### 4. 在 Claude Code 中使用
 
@@ -33,6 +35,12 @@
 ```
 帮我收集今天关于人工智能的最新信息
 ```
+
+**首次启动时**，系统会：
+1. 检测 `PERSONEL.md` 不存在
+2. 自动启动交互式初始化流程
+3. 询问你的语言偏好和默认关注领域
+4. 自动生成个人配置文件
 
 ---
 
@@ -171,18 +179,17 @@ vim ~/my-project/PERSONEL.md
 
 ### 完成配置检查
 
-确保所有配置都正确设置：
+确保所有必需的配置都正确设置：
 
 ```bash
-# 检查 PERSONEL.md 是否存在且非空
-[ -s ~/my-project/PERSONEL.md ] && echo "✓ PERSONEL.md 已安装" || echo "✗ PERSONEL.md 缺失"
-
 # 检查 SITE.md 是否存在且非空
 [ -s ~/my-project/SITE.md ] && echo "✓ SITE.md 已安装" || echo "✗ SITE.md 缺失"
 
 # 检查是否包含至少一个信息源
 grep -q "^- \*\*" ~/my-project/SITE.md && echo "✓ SITE.md 包含信息源" || echo "✗ SITE.md 可能为空"
 ```
+
+**说明**：不需要提前准备 `PERSONEL.md`，系统会在首次启动时自动创建
 
 ---
 
@@ -366,6 +373,23 @@ cat ~/my-project/2025-10-27/新增信息源评估.md
 
 ## 常见问题
 
+### Q0: 首次启动时系统是否会提示我创建 PERSONEL.md？
+
+**答案**：是的！系统会自动检测并创建。
+
+**流程说明**：
+1. 首次启动 Skill 时，系统会检查 `PERSONEL.md` 是否存在
+2. 如果不存在，会自动启动交互式初始化
+3. 系统会询问你：
+   - 主要语言选择
+   - 默认关注领域
+4. 根据你的回答自动生成 `PERSONEL.md`
+5. 然后继续进行信息收集任务
+
+**你不需要手动创建此文件！**
+
+---
+
 ### Q1: 安装后 Skill 没有出现
 
 **问题现象：**
@@ -440,21 +464,27 @@ cat ~/my-project/2025-10-27/新增信息源评估.md
 ### Q3: 配置文件缺失或格式错误
 
 **问题现象：**
-- 系统报错"PERSONEL.md 缺失"
+- SITE.md 缺失
 - 无法解析 SITE.md
 
 **解决方案：**
 
+**关于 PERSONEL.md**：
+- 如果 PERSONEL.md 缺失或为空，系统会自动启动交互式初始化创建它
+- 无需手动处理！
+
+**关于 SITE.md**：
+
 1. 验证文件存在：
    ```bash
-   # 检查两个配置文件
-   ls -la ~/my-project/PERSONEL.md ~/my-project/SITE.md
+   # 检查 SITE.md
+   ls -la ~/my-project/SITE.md
    ```
 
 2. 检查文件不为空：
    ```bash
    # 检查文件大小（应该 > 100 字节）
-   wc -c ~/my-project/PERSONEL.md ~/my-project/SITE.md
+   wc -c ~/my-project/SITE.md
    ```
 
 3. 检查 Markdown 格式：
@@ -468,7 +498,6 @@ cat ~/my-project/2025-10-27/新增信息源评估.md
 4. 如果文件损坏，重新复制：
    ```bash
    # 从源代码重新复制
-   cp /tmp/infocol-source/PERSONEL.md ~/my-project/PERSONEL.md
    cp /tmp/infocol-source/SITE.md ~/my-project/SITE.md
    ```
 
