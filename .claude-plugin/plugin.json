@@ -1,6 +1,6 @@
 {
   "name": "info-collector",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "智能信息收集系统 - 自动从多个可靠信息源收集、分析和汇总信息，当用户需要收集信息的时候使用被插件",
   "author": {
     "name": "LostAbaddon",

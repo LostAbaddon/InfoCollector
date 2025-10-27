@@ -292,7 +292,7 @@ Claude Code 会自动找到并加载 marketplace.json
     {
       "name": "info-collector",
       "source": "https://github.com/lostabaddon/InfoCollector.git",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "description": "..."
     }
   ]
@@ -397,7 +397,7 @@ MIT License - 详见 [LICENSE](./LICENSE)
 
 ---
 
-**版本**: 1.1.1
+**版本**: 1.1.2
 **最后更新**: 2025-10-27
 **作者**: LostAbaddon
 **仓库**: https://github.com/lostabaddon/InfoCollection

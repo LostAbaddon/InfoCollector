@@ -5,7 +5,7 @@
 ## 核心特性
 
 - ✅ **独立 Plugin**：完全自包含，不依赖系统内置 Agent
-- ✅ **专用 Agent**：项目内定义的 `source-processor`、`webpage-analyzer` 和 `site-evaluator`
+- ✅ **专用 Agent**：项目内定义的 `source-processor`、`webpage-analyzer`、`site-evaluator` 和 `personel-updater`
 - ✅ **多层协作**：Skill → 信息源 Agent → 网页分析 Agent
 - ✅ **双通道搜索**：SITE.md 可靠源 + WebSearch 全网搜索，覆盖更广
 - ✅ **并行处理**：多个信息源和网页同时处理，提高效率
@@ -403,7 +403,7 @@ git clone <repository-url> .plugins/InfoCollection
 
 ---
 
-**版本**：1.1.1
+**版本**：1.1.2
 **最后更新**：2025-10-27
 **作为独立 Plugin 使用**：完全自包含，可移植
 
@@ -414,8 +414,11 @@ git clone <repository-url> .plugins/InfoCollection
 - ✅ 加权评分系统（根据发现途径自动调整权重）
 - ✅ 智能去重（域名级别，SITE 优先）
 - ✅ 最终报告保存到项目根目录（便于查看）
+- ✅ 根据用户反馈自动更新 PERSONEL.md 配置（第六阶段新增）
+- ✅ 完整的"收集-反馈-优化"闭环工作流
 
 **版本历史**：
+- v1.1.2 (2025-10-27): 新增第六阶段 - 根据用户反馈自动更新 PERSONEL.md 配置，形成"收集-反馈-优化"闭环
 - v1.1.1 (2025-10-27): 新增首次启动交互式初始化和最终报告项目根目录输出
 - v1.1.0 (2025-10-27): 新增双通道搜索和加权评分系统
 - v1.0.0 (2025-10-27): 初始版本，支持单通道 SITE.md 搜索
