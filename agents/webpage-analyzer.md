@@ -10,7 +10,7 @@ model: haiku
 
 ## 输入参数说明
 
-你将通过 prompt 参数接收到以下信息（由 source-processor Agent 传入）：
+你将通过 prompt 参数接收到以下信息：
 
 - **网页标题**：网页的标题
 - **网页 URL**：网页的完整 URL 地址
@@ -276,7 +276,7 @@ model: haiku
 
 ### 步骤 5.1：整理返回信息
 
-准备以下信息返回给 source-processor Agent：
+准备以下信息返回给外部调用者：
 
 **必需信息**：
 1. **处理状态**：

@@ -44,6 +44,26 @@
   - 类型: 教育科技、AI笔记工具、学生学习应用
   - 语言: 英文
 
+- **LangChain**
+  - URL: https://langchain.com/
+  - 类型: AI框架、LLM应用开发、代理工程
+  - 语言: 英文
+
+- **Fal AI**
+  - URL: https://fal.ai/
+  - 类型: 生成式AI、多模态模型、推理基础设施
+  - 语言: 英文
+
+- **ChromaDB**
+  - URL: https://www.chromadb.io/
+  - 类型: 向量数据库、RAG系统、向量存储
+  - 语言: 英文
+
+- **Suno**
+  - URL: https://suno.com/
+  - 类型: AI音乐生成、创意工具、生成式AI
+  - 语言: 英文
+
 ### AI教育与学习
 - **YouLearn**
   - URL: https://youlearn.ai/
@@ -86,6 +106,12 @@
   - URL: https://www.freebuf.com/
   - 类型: 网络安全、技术研究
   - 语言: 中文
+
+### 云计算与基础设施
+- **Microsoft Azure**
+  - URL: https://azure.microsoft.com/
+  - 类型: 云计算、AI服务、数据库、基础设施
+  - 语言: 英文
 
 ## 国际要闻
 
