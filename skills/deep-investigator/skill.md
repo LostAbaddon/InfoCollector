@@ -9,7 +9,7 @@ description: "深度调查专家 - 深入调查和分析确定目标的详细信
 
 **重要**:本 Skill 使用项目内定义的专用 Agent 和共享的通用 Agent。可用的 Agent 包括:
 - `source-searcher`:信息源搜索和收集(专用 Agent)
-- `info-collector:webpage-analyzer`:网页内容深度分析(共享通用 Agent)
+- `webpage-analyzer`:网页内容深度分析(共享通用 Agent)
 - `report-generator`:最终综合报告生成(专用 Agent)
 - 可以为 Agent 的名字添加前缀 `info-collector:` 来特别指定为当前 Plugin 中的 Agent 以免混淆。
 
