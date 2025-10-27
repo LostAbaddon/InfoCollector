@@ -3,14 +3,29 @@
 本文档详细说明如何在你的 Claude Code 项目中安装、配置并使用智能信息收集系统（InfoCollection）提供的 Skill 和 Agent 包。
 
 **目录**
-- [快速开始（5分钟）](#快速开始5分钟)
+- [通过市场安装](#通过市场安装)
+- [本地安装](#本地安装)
 - [配置说明](#配置说明)
 - [第一次使用](#第一次使用)
 - [常见问题](#常见问题)
 
 ---
 
-## 快速开始（5分钟）
+## 通过市场安装
+
+先通过下面的命令添加我们的 Marketplace:
+
+```
+/plugin marketplace add lostabaddon/CCMarketplace
+```
+
+/然后在 "Browse and install plugins" 中找到本市场中的 InfoCollector 插件进行安装。
+
+此后可以在 "Manage and uninstall plugins" 中进行更新。
+
+---
+
+## 本地安装
 
 如果你是有经验的 Claude Code 用户，可以按照以下步骤快速上手：
 

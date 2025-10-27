@@ -1,7 +1,7 @@
 {
   "name": "info-collector",
-  "version": "1.1.2",
-  "description": "智能信息收集系统 - 自动从多个可靠信息源收集、分析和汇总信息，当用户需要收集信息的时候使用被插件",
+  "version": "1.2.0",
+  "description": "智能信息收集系统 - 自动从多个可靠信息源收集、分析和汇总信息，也可以对特定需求进行深入调查分析，当用户需要收集信息时使用本插件",
   "author": {
     "name": "LostAbaddon",
     "email": "lostabaddon@gmail.com",
@@ -14,12 +14,17 @@
     "research",
     "web-scraping",
     "analysis",
-    "report-generation"
+    "report-generation",
+    "news-aggregation",
+    "content-analysis"
   ],
   "skills": "./skills/",
   "agents": [
     "./agents/source-processor.md",
     "./agents/webpage-analyzer.md",
-    "./agents/site-evaluator.md"
+    "./agents/site-evaluator.md",
+    "./agents/personel-updater.md",
+    "./agents/source-searcher.md",
+    "./agents/report-generator.md"
   ]
 }
