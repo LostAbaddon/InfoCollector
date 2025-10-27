@@ -403,7 +403,7 @@ git clone <repository-url> .plugins/InfoCollection
 
 ---
 
-**版本**：1.2.0
+**版本**：1.2.1
 **最后更新**：2025-10-27
 **作为独立 Plugin 使用**：完全自包含，可移植
 
@@ -419,6 +419,7 @@ git clone <repository-url> .plugins/InfoCollection
 - ✅ 深度调查分析功能（deep-investigator Skill）
 
 **版本历史**：
+- v1.2.1 (2025-10-28): deep-investigator 启动网络搜索前先检查本地是否已有相关信息
 - v1.2.0 (2025-10-27): 新增深度调查分析功能（deep-investigator Skill）
 - v1.1.2 (2025-10-27): 新增第六阶段 - 根据用户反馈自动更新 PERSONEL.md 配置，形成"收集-反馈-优化"闭环
 - v1.1.1 (2025-10-27): 新增首次启动交互式初始化和最终报告项目根目录输出
