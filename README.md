@@ -22,7 +22,7 @@
 ## 项目结构
 
 ```
-InfoCollection/
+InfoCollector/
 ├── marketplace.json				# Marketplace 配置文件（仅用于本地模式）
 ├── .claude-plugin/
 │   └── plugin.json					# Plugin 配置文件
@@ -154,7 +154,7 @@ deep-investigator Skill
 
 ```bash
 # 在你的项目中
-git clone <repository-url> .plugins/InfoCollection
+git clone <repository-url> .plugins/InfoCollector
 ```
 
 ### 2. 配置
