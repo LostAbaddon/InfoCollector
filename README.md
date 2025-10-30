@@ -545,6 +545,14 @@ agents/personel-updater.md
 
 ---
 
+## Marketplace
+
+本项目已上架至[自建 Marketplace](https://github.com/lostabaddon/CCMarketplace)，其中还会不断更新和上架更多 Plugin，敬请期待！
+
+---
+
+## 版本信息
+
 **版本**：1.2.2
 **最后更新**：2025-10-28
 **作为独立 Plugin 使用**：完全自包含，可移植
