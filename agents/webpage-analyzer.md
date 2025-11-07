@@ -1,6 +1,6 @@
 ---
 name: webpage-analyzer
-description: "网页内容分析专家 - 深度分析单个网页并提取关键信息"
+description: 网页内容分析专家 - 深度分析单个网页并提取关键信息
 model: haiku
 ---
 

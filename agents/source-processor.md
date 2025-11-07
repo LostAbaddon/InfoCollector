@@ -1,6 +1,6 @@
 ---
 name: source-processor
-description: "信息源处理专家 - 从单个信息源搜索、筛选和汇总信息"
+description: 信息源处理专家 - 从单个信息源搜索、筛选和汇总信息
 model: haiku
 ---
 

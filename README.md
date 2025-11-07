@@ -1,5 +1,7 @@
 # 智能信息收集系统
 
+- 版本: 1.3.0
+
 一个基于 Claude Code 的**独立 Plugin 项目**，能够从多个可靠信息源自动收集信息，进行深度分析，并生成结构化报告。
 
 ## 核心特性
@@ -553,10 +555,8 @@ agents/personel-updater.md
 
 ## 版本信息
 
-**版本**：1.2.2
-**最后更新**：2025-10-28
+**最后更新**：2025-11-07
 **作为独立 Plugin 使用**：完全自包含，可移植
-
 **主要功能**：
 - ✅ 首次启动交互式初始化（自动生成 PERSONEL.md）
 - ✅ 自动发现并添加新信息源到 SITE.md
@@ -567,8 +567,10 @@ agents/personel-updater.md
 - ✅ 根据用户反馈自动更新 PERSONEL.md 配置（第六阶段新增）
 - ✅ 完整的"收集-反馈-优化"闭环工作流
 - ✅ 深度调查分析功能（deep-investigator Skill）
+- ✅ 集成 [HeadlessKnight](https://github.com/LostAbaddon/HeadlessKnight) 以使用 Gemini CLI 进行搜索
 
 **版本历史**：
+- v1.3.0 (2025-11-07): 增加对 [HeadlessKnight](https://github.com/LostAbaddon/HeadlessKnight) 的集成，使用 Gemini CLI 进行搜索
 - v1.2.2 (2025-10-28): webpage-analyzer Agent 支持双模式（focused/comprehensive），统一服务于 deep-investigator 和 info-collector 两个 Skill
 - v1.2.1 (2025-10-28): deep-investigator 启动网络搜索前先检查本地是否已有相关信息
 - v1.2.0 (2025-10-27): 新增深度调查分析功能（deep-investigator Skill）

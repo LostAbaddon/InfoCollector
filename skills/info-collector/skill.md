@@ -1,6 +1,6 @@
 ---
 name: info-collector
-description: "智能信息收集助手 - 自动从可靠信息源收集、分析和汇总信息"
+description: 智能信息收集助手 - 自动从可靠信息源收集、分析和汇总信息
 ---
 
 # 智能信息收集 Skill

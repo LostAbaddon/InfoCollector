@@ -1,6 +1,6 @@
 ---
 name: personel-updater
-description: "个人偏好更新专家 - 根据用户反馈分析并更新 PERSONEL.md"
+description: 个人偏好更新专家 - 根据用户反馈分析并更新 PERSONEL.md
 model: sonnet
 ---
 

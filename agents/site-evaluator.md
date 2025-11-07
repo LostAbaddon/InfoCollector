@@ -1,6 +1,6 @@
 ---
 name: site-evaluator
-description: "信息源评估专家 - 评估新发现的网站并更新 SITE.md"
+description: 信息源评估专家 - 评估新发现的网站并更新 SITE.md
 model: haiku
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: report-generator
-description: "综合报告生成专家 - 整合所有收集的信息生成结构清晰、内容详实的最终报告"
-model: claude-sonnet-4
+description: 综合报告生成专家 - 整合所有收集的信息生成结构清晰、内容详实的最终报告
+model: sonnet
 ---
 
 # 综合报告生成 Agent
